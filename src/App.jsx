@@ -2,7 +2,7 @@ import React from 'react'
 import AOS from "aos";
 import "aos/dist/aos.css";
 import DesktopImage from '../src/assets/background.png'
-import Hero from './components/Hero/HEro'
+import Hero from './components/Hero/Hero'
 import Schedule from './components/Schedule/Schedule';
 import Problem from './components/Problem/Problem';
 import Investment from './components/Investment/Investment';
