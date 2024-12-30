@@ -7,12 +7,16 @@ import fb from "../../assets/Group427322091.png";
 import linkedIn from "../../assets/Group427322089.png";
 import twitter from "../../assets/Group427322088.png";
 import insta from "../../assets/Group427322090.png";
-import appstore from "../../assets/Group427321985.png"
-import googlePlay from "../../assets/Group427321986.png"
+import appstore from "../../assets/Group427321985.png";
+import googlePlay from "../../assets/Group427321986.png";
 
 const Footer = () => {
   return (
-    <div data-aos="zoom-in" className="bg-cover" style={{ backgroundImage: `url(${desktopImg})` }}>
+    <div
+      data-aos="zoom-in"
+      className="bg-cover"
+      style={{ backgroundImage: `url(${desktopImg})` }}
+    >
       <div className="container mt-20 md:mt-44">
         <div
           data-aos="fade-up"
@@ -89,7 +93,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <hr className="mt-4 md:mt-20"/>
+      <hr className="mt-4 md:mt-20" />
       <p className="text-xs text-[#FFFFFF] text-center font-normal py-5 font-Poppins">
         Copyright2024. Dating solution Limited. All right reserved.{" "}
       </p>
