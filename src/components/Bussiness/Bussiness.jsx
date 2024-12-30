@@ -1,4 +1,5 @@
 import React from "react";
+import aero from "../../assets/Group427322094.png";
 
 const BussinessItem = [
   {
@@ -16,7 +17,7 @@ const BussinessItem = [
   {
     title: "Approach 3",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been industry's standard  text ever since the ",
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been industry's standard   text ever since the ",
     aosDelay: "1000",
   },
 ];
@@ -26,7 +27,13 @@ const Bussiness = () => {
     <div>
       <div className="container mt-20 md:mt-44">
         <div className="space-y-4">
-          <div>
+          <div className="flex text-center justify-center">
+            <img
+              data-aos="fade-down"
+              src={aero}
+              alt=""
+              className="hidden xl:block h-20 w-16 pb-8"
+            />
             <h1 className="text-5xl lg:text-7xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#8C0AD9] to-[#1F7EFB] text-center">
               Bussiness Model
             </h1>
@@ -34,12 +41,16 @@ const Bussiness = () => {
           <div className="grid grid-cols-1 lg:grid-cols-3 justify-between gap-5">
             {BussinessItem.map((data) => {
               return (
-                <div data-aos="fade-up" data-aos-delay={data.aosDelay} className="rounded-full bg-[#232527] border-[0.6px] border-[#63FF0F] drop-shadow-2xl  h-80 w-80 px-4 py-7 m-auto">
+                <div
+                  data-aos="fade-up"
+                  data-aos-delay={data.aosDelay}
+                  className="rounded-full bg-[#232527] border border-[#63FF0F] drop-shadow-2xl  h-[352px] w-[352px] px-4 py-7 m-auto"
+                >
                   <div className="text-center items-center justify-center space-y-7">
-                    <h1 className="text-center text-4xl font-semibold text-[#FFFFFF]">
+                    <h1 className="text-center text-4xl font-semibold text-[#FFFFFF] p-1 pt-6">
                       {data.title}
                     </h1>
-                    <p className="text-center text-xl font-normal text-[#FFFFFF99]">
+                    <p className="text-center text-xl font-normal leading-8 text-[#FFFFFF99]">
                       {data.description}
                     </p>
                   </div>

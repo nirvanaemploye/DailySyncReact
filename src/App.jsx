@@ -29,7 +29,7 @@ const App = () => {
   }, []);
   return (
     <div
-      className="bg-cover font-Afacad"
+      className="bg-cover font-Afacad "
       style={{ backgroundImage: `url(${DesktopImage})` }}
     >
       <Hero />

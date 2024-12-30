@@ -1,5 +1,6 @@
 import React from 'react'
 import client from "../../assets/Group427322144.png";
+import aero from "../../assets/Group427322094.png";
 
 const Testing = () => {
   return (
@@ -9,10 +10,17 @@ const Testing = () => {
           <div data-aos="zoom-in">
             <img src={client} alt="" />
           </div>
-          <div data-aos="fade-up" className='space-y-5'>
-            <h1 className="text-5xl md:text-7xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#8C0AD9] to-[#1F7EFB]">
-              Testing & Market Analysis
-            </h1> 
+          <div data-aos="fade-up" className="space-y-5">
+            <div className="flex -ml-16">
+              <img
+                src={aero}
+                alt=""
+                className="hidden xl:block h-20 w-16 pb-8"
+              />
+              <h1 className="text-5xl md:text-7xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#8C0AD9] to-[#1F7EFB]">
+                Testing & Market Analysis
+              </h1>
+            </div>
             <p className="text-xl font-normal text-[#FFFFFF99] h-auto w-auto md:h-60 md:w-96">
               Lorem Ipsum is simply dummy text of the printing industry. Lorem
               Ipsum has been the industry's text ever since the 1500s, when an

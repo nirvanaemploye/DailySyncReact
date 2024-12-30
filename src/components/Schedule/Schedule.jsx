@@ -1,4 +1,5 @@
 import React from 'react'
+import aero from "../../assets/Group427322094.png";
 
 const content = [
     {
@@ -27,12 +28,20 @@ const Schedule = () => {
   return (
     <div className="container mt-10 md:mt-40">
       <div>
-        <h1
-          data-aos="fade-up"
-          className="text-4xl xl:text-7xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#f753ab] via-[#529FFC] to-[#3333CB] text-center"
-        >
-          Schedeule app
-        </h1>
+        <div className="flex text-center justify-center">
+            <img
+              data-aos="fade-down"
+              src={aero}
+              alt=""
+              className="hidden xl:block h-20 w-16 pb-8"
+            />
+          <h1
+            data-aos="fade-up"
+            className="text-4xl xl:text-7xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#f753ab] via-[#529FFC] to-[#3333CB] text-center"
+          >
+            Schedeule app
+          </h1>
+        </div>
         <p
           data-aos="fade-up"
           className="text-xl md:text-2xl text-center font-normal text-[#FFFFFF99] mt-2 md:mt-6"

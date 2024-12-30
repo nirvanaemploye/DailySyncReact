@@ -1,5 +1,5 @@
 import React from 'react'
-import icon from "../../assets/Group427322094.png";
+import aero from "../../assets/Group427322094.png";
 
 const yearData = [
   {
@@ -23,7 +23,7 @@ const Investment = () => {
   return (
     <div className="container mt-20 md:mt-44">
       <div className="flex flex-col-reverse md:grid md:grid-cols-2 justify-between">
-        <div className='mt-8'>
+        <div className="mt-8">
           <div>
             {yearData.map((data) => {
               return (
@@ -32,7 +32,7 @@ const Investment = () => {
                   data-aos-delay={data.aosDelay}
                   className=""
                 >
-                  <div className='my-4'>
+                  <div className="my-4">
                     <h1 className="text-4xl font-bold text-[#E4F12E] ">
                       {data.year}
                     </h1>
@@ -46,7 +46,13 @@ const Investment = () => {
           </div>
         </div>
         <div>
-          <div>
+          <div className="flex ">
+            <img
+              data-aos="fade-down"
+              src={aero}
+              alt=""
+              className="hidden xl:block h-20 w-16 pb-0"
+            />
             <h1 className="text-5xl lg:text-7xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#8C0AD9] to-[#1F7EFB] mb-3">
               Investment Opportunity
             </h1>

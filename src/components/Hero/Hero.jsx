@@ -7,7 +7,7 @@ import ticon from "../../assets/Ellipse268.png"
 const Hero = () => {
   return (
     <div className="container pt-24">
-      <div className="bg-[#211F3C] w-auto h-auto lg:w-[1240px] lg:h-[618px] border-2 border-[#A975FFCC]/80 mx-auto rounded-[80px]">
+      <div className="bg-[#211F3C] w-auto h-auto xl:w-[1240px] xl:h-[618px] border-2 border-[#A975FFCC]/80 mx-auto rounded-[80px]">
         <div className="flex flex-col-reverse md:flex-row md:p-24 md:pb-0 md:pt-40">
           {/* Hero Content */}
           <div className="md:w-8/12 md:space-y-10 md:pt-12">

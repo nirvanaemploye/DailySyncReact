@@ -2,19 +2,28 @@ import React from 'react'
 import image1 from "../../assets/Group427322135.png";
 import image2 from "../../assets/Group427322137.png";
 import image3 from "../../assets/Group427322136.png";
+import aero from "../../assets/Group427322094.png";
 
 const OurTeam = () => {
   return (
     <div>
       <div className="container mt-20 md:mt-44">
         <div className="grid grid-cols-1 md:grid-cols-2 justify-between gap-5">
-          <div className='space-y-6'>
-            <h1
-              data-aos="fade-up"
-              className="text-5xl lg:text-7xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#8C0AD9] to-[#1F7EFB] md:text-left text-center"
-            >
-              Our Team
-            </h1>
+          <div className="space-y-6">
+            <div className="flex">
+              <img
+                data-aos="fade-down"
+                src={aero}
+                alt=""
+                className="hidden xl:block h-20 w-16 pb-8"
+              />
+              <h1
+                data-aos="fade-up"
+                className="text-5xl lg:text-7xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#8C0AD9] to-[#1F7EFB] md:text-left text-center"
+              >
+                Our Team
+              </h1>
+            </div>
             <p
               data-aos="fade-up"
               data-aos-duration="1000"
