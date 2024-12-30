@@ -25,7 +25,7 @@ const Problem = () => {
                 <img src={client} alt="" />
             </div>
             <div>
-                <div className='grid grid-cols-1 md:grid-rows-2 mt-10'>
+                <div className='grid grid-cols-1 md:grid-rows-2 gap-3 mt-10'>
                     {
                         third.map((data) => {
                             return (

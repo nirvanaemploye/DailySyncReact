@@ -29,7 +29,7 @@ const Schedule = () => {
       <div>
         <h1
           data-aos="fade-up"
-          className="text-5xl xl:text-7xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#8C0AD9]/100 to-[#1F7EFB]/100 text-center"
+          className="text-4xl xl:text-7xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#f753ab] via-[#529FFC] to-[#3333CB] text-center"
         >
           Schedeule app
         </h1>
@@ -44,23 +44,23 @@ const Schedule = () => {
       </div>
       {/* Grids */}
       <div>
-        <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 md:gap-14 mt-2 md:mt-5'>
-            {
-                content.map((data) => {
-                    return (
-                      <div
-                        data-aos="fade-up"
-                        data-aos-delay={data.aosDelay}
-                        className="space-y-3 bg-[#232527] p-8 text-center rounded-[48px] border-2 border-[#0063e6] mt-12"
-                      >
-                        <h1 className="text-5xl font-medium text-[#E4F12E] md:text-left">
-                          {data.id}
-                        </h1>
-                        <div className="text-[#FFFFFF] text-2xl font-medium">{data.para}</div>
-                      </div>
-                    );
-                })
-            }
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 md:gap-14 mt-2 md:mt-5">
+          {content.map((data) => {
+            return (
+              <div
+                data-aos="fade-up"
+                data-aos-delay={data.aosDelay}
+                className="space-y-3 bg-[#232527] p-8 text-center rounded-[48px] border border-[#0063e6] mt-12"
+              >
+                <h1 className="text-5xl font-medium text-[#E4F12E] md:text-left">
+                  {data.id}
+                </h1>
+                <div className="text-[#FFFFFF] text-2xl font-medium">
+                  {data.para}
+                </div>
+              </div>
+            );
+          })}
         </div>
       </div>
     </div>

@@ -7,10 +7,10 @@ export default {
         center: true,
         padding: {
           DEFAULT: "1rem",
-          sm: "3rem",
+          sm: "2rem",
           md: "4rem",
           lg: "5rem",
-          xl: "10rem",
+          xl: "6rem",
         },
       },
       dropShadow: {

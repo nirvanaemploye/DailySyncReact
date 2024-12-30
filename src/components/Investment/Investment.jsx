@@ -23,21 +23,23 @@ const Investment = () => {
   return (
     <div className="container mt-20 md:mt-44">
       <div className="flex flex-col-reverse md:grid md:grid-cols-2 justify-between">
-        <div className='mt-10'>
+        <div className='mt-8'>
           <div>
             {yearData.map((data) => {
               return (
                 <div
                   data-aos="fade-up"
                   data-aos-delay={data.aosDelay}
-                  className="grid grid-rows-3"
+                  className=""
                 >
-                  <h1 className="text-4xl font-bold text-[#E4F12E] ">
-                    {data.year}
-                  </h1>
-                  <span className="text-3xl font-bold text-[#FFFFFF] ">
-                    {data.description}
-                  </span>
+                  <div className='my-4'>
+                    <h1 className="text-4xl font-bold text-[#E4F12E] ">
+                      {data.year}
+                    </h1>
+                    <span className="text-3xl font-bold text-[#FFFFFF] ">
+                      {data.description}
+                    </span>
+                  </div>
                 </div>
               );
             })}
