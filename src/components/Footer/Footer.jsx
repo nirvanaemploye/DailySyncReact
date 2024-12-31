@@ -17,7 +17,7 @@ const Footer = () => {
       className="bg-cover"
       style={{ backgroundImage: `url(${desktopImg})` }}
     >
-      <div className="container mt-20 md:mt-44">
+      <div className="container mt-20 md:mt-36">
         <div
           data-aos="fade-up"
           className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-16 justify-between pt-4 md:pt-24"

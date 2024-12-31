@@ -24,6 +24,7 @@ export default {
       fontFamily: {
         Afacad: ["Afacad", "sans-serif"],
         Poppins: ["Poppins", "sans-serif"],
+        Anek: ["Anek Latin","serif"],
       },
     },
   },

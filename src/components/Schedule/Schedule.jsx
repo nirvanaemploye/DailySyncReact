@@ -64,7 +64,7 @@ const Schedule = () => {
                 <h1 className="text-5xl font-medium text-[#E4F12E] md:text-left">
                   {data.id}
                 </h1>
-                <div className="text-[#FFFFFF] text-2xl font-medium">
+                <div className="text-[#FFFFFF] text-2xl font-medium text-left">
                   {data.para}
                 </div>
               </div>

@@ -5,19 +5,19 @@ const BussinessItem = [
   {
     title: "Approach 1",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been industry's standard  text ever since the ",
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been industry's standard  text ever since the Ipsum has been industry's standard",
     aosDelay: "0",
   },
   {
     title: "Approach 2",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been industry's standard  text ever since the ",
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been industry's standard  text ever since the Ipsum has been industry's standard",
     aosDelay: "500",
   },
   {
     title: "Approach 3",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been industry's standard   text ever since the ",
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been industry's standard  text ever since the Ipsum has been industry's standard",
     aosDelay: "1000",
   },
 ];
@@ -46,11 +46,11 @@ const Bussiness = () => {
                   data-aos-delay={data.aosDelay}
                   className="rounded-full bg-[#232527] border border-[#b3fd8b] shadow-green  sm:h-auto md:h-[352px] sm:w-auto md:w-[352px] px-4 py-7 m-auto"
                 >
-                  <div className="text-center items-center justify-center space-y-7">
+                  <div className="text-center items-center justify-center space-y-5">
                     <h1 className="text-center text-4xl font-semibold text-[#FFFFFF] p-1 pt-6">
                       {data.title}
                     </h1>
-                    <p className="text-center text-xl font-normal leading-8 text-[#FFFFFF99]">
+                    <p className="text-center text-xs sm:text-xl font-normal leading-8 text-[#FFFFFF99]">
                       {data.description}
                     </p>
                   </div>

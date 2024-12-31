@@ -32,7 +32,7 @@ const Investment = () => {
                   data-aos-delay={data.aosDelay}
                   className=""
                 >
-                  <div className="my-4">
+                  <div className="my-4 font-Anek">
                     <h1 className="text-5xl font-bold text-[#E4F12E] ">
                       {data.year}
                     </h1>
