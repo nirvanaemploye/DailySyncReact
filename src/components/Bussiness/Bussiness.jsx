@@ -1,6 +1,7 @@
 import React from "react";
 import aero from "../../assets/Group427322094.png";
 
+
 const BussinessItem = [
   {
     title: "Approach 1",
@@ -58,6 +59,7 @@ const Bussiness = () => {
               );
             })}
           </div>
+          
         </div>
       </div>
     </div>
