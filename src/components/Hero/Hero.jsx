@@ -52,7 +52,7 @@ const Hero = () => {
             <div className="absolute -right-12 -top-28 hidden lg:block">
               <img src={ticon} alt="" className="" />
             </div>
-            <div className="absolute -left-32 bottom-4 hidden lg:block">
+            <div className="absolute -left-32 bottom-4 hidden xl:block">
               <img src={two} alt="" />
             </div>
           </div>

@@ -26,8 +26,8 @@ const Bussiness = () => {
   return (
     <div>
       <div className="container mt-20 md:mt-44">
-        <div className="space-y-4">
-          <div className="flex text-center justify-center">
+        <div className="space-y-8">
+          <div className="flex text-center justify-center gap-3">
             <img
               data-aos="fade-down"
               src={aero}

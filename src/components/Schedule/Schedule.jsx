@@ -28,7 +28,7 @@ const Schedule = () => {
   return (
     <div className="container mt-10 md:mt-40">
       <div>
-        <div className="flex text-center justify-center">
+        <div className="flex text-center justify-center gap-3">
           <img
             data-aos="fade-down"
             src={aero}
@@ -61,10 +61,10 @@ const Schedule = () => {
                 data-aos-delay={data.aosDelay}
                 className="space-y-3 bg-[#232527] p-8 text-center rounded-[48px] border border-[#0063e6] shadow-all-sides mt-12"
               >
-                <h1 className="text-5xl font-medium text-[#E4F12E] md:text-left">
+                <h1 className="text-5xl font-medium text-[#E4F12E] text-center md:text-left">
                   {data.id}
                 </h1>
-                <div className="text-[#FFFFFF] text-2xl font-medium text-left">
+                <div className="text-[#FFFFFF] text-2xl font-medium text-center md:text-left">
                   {data.para}
                 </div>
               </div>
