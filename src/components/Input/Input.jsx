@@ -10,7 +10,7 @@ const Input = () => {
         <div className="md:w-10/12 m-auto md:space-y-8 space-y-2 pt-8">
           <h1
             data-aos="fade-up"
-            className="font-normal text-white text-5xl font-serif"
+            className="font-normal text-white text-3xl sm:text-5xl font-serif"
           >
             Subscribe
           </h1>

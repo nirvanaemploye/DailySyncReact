@@ -70,7 +70,7 @@ const Footer = () => {
           </div>
           <div className="space-y-7">
             <div className="space-y-3">
-              <div className="flex space-x-3 justify-center lg:-ml-8">
+              <div className="grid sm:flex sm:space-x-3 justify-center lg:-ml-8">
                 <img src={fb} alt="" />
                 <img src={linkedIn} alt="" />
                 <img src={twitter} alt="" />

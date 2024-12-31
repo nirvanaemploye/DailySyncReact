@@ -53,7 +53,7 @@ const Investment = () => {
               alt=""
               className="hidden xl:block h-20 w-16 pb-4 -ml-16"
             />
-            <h1 className="text-5xl lg:text-7xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#8C0AD9] to-[#1F7EFB] mb-3">
+            <h1 className="text-3xl sm:text-5xl lg:text-7xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#8C0AD9] to-[#1F7EFB] mb-3">
               Investment Opportunity
             </h1>
           </div>
