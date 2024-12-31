@@ -5,7 +5,7 @@ const Input = () => {
     <>
       <div
         data-aos="zoom-in"
-        className="container min-h-[300px] rounded-[84px] bg-[#0A1C34] border border-white text-center md:w-[1039px] mt-20 md:mt-44"
+        className="container min-h-[313px] rounded-[84px] bg-[#0A1C34] border border-white text-center md:w-[1039px] mt-20 md:mt-44"
       >
         <div className="md:w-10/12 m-auto md:space-y-8 space-y-2 pt-8">
           <h1
@@ -21,12 +21,12 @@ const Input = () => {
           </p>
           <div
             data-aos="fade-up"
-            className="border border-white rounded-full flex mb-4"
+            className="border border-white rounded-full flex mb-4 lg:w-[502px] mx-auto"
           >
             <input
               type="text"
               placeholder="Enter Your Email"
-              className="bg-transparent text-left w-full px-4 py-3 text-xl text-[#FFFFFF] outline-none"
+              className="bg-transparent text-left w-full px-4 py-3 text-xl text-[#FFFFFF] outline-none "
             />
             <button
               data-aos="fade-up"

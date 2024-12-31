@@ -33,7 +33,7 @@ const Unique = () => {
             />
             <h1
               data-aos="fade-up"
-              className="text-4xl xl:text-7xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#f753ab] via-[#529FFC] to-[#3333CB] text-center"
+              className="text-4xl xl:text-7xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#8C0AD9] to-[#1F7EFB] text-center"
             >
               Unique Features
             </h1>

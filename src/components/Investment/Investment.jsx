@@ -23,7 +23,7 @@ const Investment = () => {
   return (
     <div className="container mt-20 md:mt-44">
       <div className="flex flex-col-reverse md:grid md:grid-cols-2 justify-between">
-        <div className="mt-8">
+        <div className="">
           <div>
             {yearData.map((data) => {
               return (
@@ -33,10 +33,10 @@ const Investment = () => {
                   className=""
                 >
                   <div className="my-4">
-                    <h1 className="text-4xl font-bold text-[#E4F12E] ">
+                    <h1 className="text-5xl font-bold text-[#E4F12E] ">
                       {data.year}
                     </h1>
-                    <span className="text-3xl font-bold text-[#FFFFFF] ">
+                    <span className="text-4xl font-bold text-[#FFFFFF] ">
                       {data.description}
                     </span>
                   </div>
@@ -45,8 +45,8 @@ const Investment = () => {
             })}
           </div>
         </div>
-        <div>
-          <div className="flex ">
+        <div className=" -ml-0 md:-ml-16">
+          <div className="flex">
             <img
               data-aos="fade-down"
               src={aero}

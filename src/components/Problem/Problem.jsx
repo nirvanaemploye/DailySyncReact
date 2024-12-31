@@ -20,8 +20,8 @@ const third = [
 const Problem = () => {
   return (
     <div className='container mt-20 md:mt-44'>
-        <div className="grid md:grid-cols-2 justify-between">
-            <div data-aos="zoom-in">
+        <div className="grid md:grid-cols-2">
+            <div data-aos="zoom-in" className=''>
                 <img src={client} alt="" />
             </div>
             <div>

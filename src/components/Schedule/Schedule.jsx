@@ -29,15 +29,15 @@ const Schedule = () => {
     <div className="container mt-10 md:mt-40">
       <div>
         <div className="flex text-center justify-center">
-            <img
-              data-aos="fade-down"
-              src={aero}
-              alt=""
-              className="hidden xl:block h-20 w-16 pb-8"
-            />
+          <img
+            data-aos="fade-down"
+            src={aero}
+            alt=""
+            className="hidden xl:block h-20 w-16 pb-8"
+          />
           <h1
             data-aos="fade-up"
-            className="text-4xl xl:text-7xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#f753ab] via-[#529FFC] to-[#3333CB] text-center"
+            className="text-4xl xl:text-7xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#8C0AD9] to-[#1F7EFB] text-center"
           >
             Schedeule app
           </h1>

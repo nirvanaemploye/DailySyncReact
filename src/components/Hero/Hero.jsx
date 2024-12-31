@@ -2,7 +2,8 @@ import React from "react";
 import icon from "../../assets/Dailysync16.png";
 import AppStore from "../../assets/Group427321985.png";
 import Googleplay from "../../assets/Group427321986.png";
-import ticon from "../../assets/Ellipse268.png"
+import ticon from "../../assets/Ellipse268.png";
+import two from '../../assets/two.png';
 
 const Hero = () => {
   return (
@@ -48,8 +49,11 @@ const Hero = () => {
             className="w-4/12 right-0 mx-auto py-4 md:py-0 relative"
           >
             <img src={icon} alt="" />
-            <div className="absolute -right-12 -top-28 hidden md:block">
+            <div className="absolute -right-12 -top-28 hidden lg:block">
               <img src={ticon} alt="" className="" />
+            </div>
+            <div className="absolute -left-32 bottom-4 hidden lg:block">
+              <img src={two} alt="" />
             </div>
           </div>
         </div>
