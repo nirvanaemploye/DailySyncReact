@@ -23,7 +23,7 @@ const yearData = [
 const Investment = () => {
   return (
     <div className="container mt-20 md:mt-44">
-      <div className="flex flex-col-reverse md:grid md:grid-cols-2 justify-between">
+      <div className="flex flex-col-reverse md:grid xl:grid-cols-2 justify-between">
         {/* <div className="">
           <div>
             {yearData.map((data) => {
