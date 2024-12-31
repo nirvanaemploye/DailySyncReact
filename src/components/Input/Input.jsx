@@ -5,7 +5,7 @@ const Input = () => {
     <>
       <div
         data-aos="zoom-in"
-        className="container min-h-[300px] rounded-[84px] bg-[#0A1C34] border border-white text-center md:w-10/12 mt-20 md:mt-44"
+        className="container min-h-[300px] rounded-[84px] bg-[#0A1C34] border border-white text-center md:w-[1039px] mt-20 md:mt-44"
       >
         <div className="md:w-10/12 m-auto md:space-y-8 space-y-2 pt-8">
           <h1

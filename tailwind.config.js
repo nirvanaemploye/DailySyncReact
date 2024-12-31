@@ -13,12 +13,13 @@ export default {
           xl: "6rem",
         },
       },
-      dropShadow: {
-        "3xl": "0 30px 30px rgba(164, 239, 25, 0.35)",
-        "4xl": [
-          "0 35px 35px rgba(0, 0, 0, 0.25)",
-          "0 45px 65px rgba(0, 0, 0, 0.15)",
-        ],
+      boxShadow: {
+        "all-sides":
+          "2px 2px 10px rgba(0, 99, 230, 0.5), 0 0 10px rgba(0, 99, 230, 0.5)",
+        purple:
+          "2px 2px 10px rgba(169, 117, 255, 0.4), 0 0 10px rgba(169, 117, 255, 0.4)",
+        green:
+          "2px 2px 10px rgba(164, 239, 25, 0.349), 0 0 10px rgba(164, 239, 25, 0.349)",
       },
       fontFamily: {
         Afacad: ["Afacad", "sans-serif"],
@@ -28,4 +29,3 @@ export default {
   },
   plugins: [],
 };
-

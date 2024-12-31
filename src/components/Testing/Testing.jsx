@@ -11,7 +11,7 @@ const Testing = () => {
             <img src={client} alt="" />
           </div>
           <div data-aos="fade-up" className="space-y-5">
-            <div className="flex -ml-16">
+            <div className="flex -ml-0 md:-ml-16">
               <img
                 src={aero}
                 alt=""

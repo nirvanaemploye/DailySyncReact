@@ -59,7 +59,7 @@ const Schedule = () => {
               <div
                 data-aos="fade-up"
                 data-aos-delay={data.aosDelay}
-                className="space-y-3 bg-[#232527] p-8 text-center rounded-[48px] border border-[#0063e6] mt-12"
+                className="space-y-3 bg-[#232527] p-8 text-center rounded-[48px] border border-[#0063e6] shadow-all-sides mt-12"
               >
                 <h1 className="text-5xl font-medium text-[#E4F12E] md:text-left">
                   {data.id}
