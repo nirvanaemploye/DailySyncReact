@@ -28,7 +28,7 @@ const Schedule = () => {
   return (
     <div className="container mt-10 md:mt-40">
       <div>
-        <div className="flex text-center justify-center gap-3">
+        <div className="flex text-center justify-center">
           <img
             data-aos="fade-down"
             src={aero}
@@ -53,7 +53,7 @@ const Schedule = () => {
       </div>
       {/* Grids */}
       <div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 md:gap-14 mt-2 md:mt-5">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 sm:gap-10 sm:gap-y-0.5 md:gap-14 mt-2 md:mt-5">
           {content.map((data) => {
             return (
               <div

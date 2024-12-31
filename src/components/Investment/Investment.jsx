@@ -46,7 +46,7 @@ const Investment = () => {
             })}
           </div>
         </div> */}
-        <div>
+        <div className=''>
           <img src={group} alt="" />
         </div>
         <div className=" -ml-0 md:-ml-16">

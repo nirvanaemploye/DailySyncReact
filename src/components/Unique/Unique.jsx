@@ -24,7 +24,7 @@ const Unique = () => {
     <div>
       <div className="container mt-20 md:mt-44">
         <div className="space-y-8">
-          <div className="flex text-center justify-center gap-3">
+          <div className="flex text-center justify-center">
             <img
               data-aos="fade-down"
               src={aero}
