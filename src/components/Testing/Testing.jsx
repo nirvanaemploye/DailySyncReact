@@ -6,7 +6,7 @@ const Testing = () => {
   return (
     <div>
       <div className="container mt-20 md:mt-44">
-        <div className="flex flex-col-reverse md:grid grid-cols-1 xl:grid-cols-2 justify-between gap-6 gap-y-8">
+        <div className="flex flex-col-reverse md:grid grid-cols-1 xl:grid-cols-2 justify-between gap-6 gap-y-8 md:mx-16">
           <div data-aos="zoom-in">
             <img src={client} alt="" />
           </div>

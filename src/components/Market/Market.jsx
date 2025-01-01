@@ -6,7 +6,7 @@ const Market = () => {
   return (
     <div>
       <div className="container mt-20 md:mt-44">
-        <div className="grid grid-cols-1 xl:grid-cols-2 justify-between space-y-5">
+        <div className="grid grid-cols-1 xl:grid-cols-2 justify-between space-y-5 md:mx-16">
           <div data-aos="fade-up" className="space-y-5 mt-20">
             <div className="flex">
               <img

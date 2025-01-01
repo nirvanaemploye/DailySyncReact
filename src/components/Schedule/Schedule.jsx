@@ -1,28 +1,28 @@
-import React from 'react'
+import React from "react";
 import aero from "../../assets/Aero_2.png";
 
 const content = [
-    {
-        id: "01",
-        para: "First-Ever Live Feed On A Schedule App",
-        aosDelay: "0"
-    },
-    {
-        id: "02",
-        para: "First-Ever Live Feed On A Schedule App",
-        aosDelay:"500"
-    },
-    {
-        id: "03",
-        para: "First-Ever Live Feed On A Schedule App",
-        aosDelay: "1000"
-    },
-    {
-        id: "04",
-        para: "First-Ever Live Feed On A Schedule App",
-        aosDelay: "1500"
-    }
-]
+  {
+    id: "01",
+    para: "First-Ever Live Feed On A Schedule App",
+    aosDelay: "0",
+  },
+  {
+    id: "02",
+    para: "First-Ever Live Feed On A Schedule App",
+    aosDelay: "500",
+  },
+  {
+    id: "03",
+    para: "First-Ever Live Feed On A Schedule App",
+    aosDelay: "1000",
+  },
+  {
+    id: "04",
+    para: "First-Ever Live Feed On A Schedule App",
+    aosDelay: "1500",
+  },
+];
 
 const Schedule = () => {
   return (
@@ -39,7 +39,7 @@ const Schedule = () => {
             data-aos="fade-up"
             className="text-4xl xl:text-7xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#8C0AD9] to-[#1F7EFB] text-center"
           >
-            Sched~`ule app
+            Schedule app
           </h1>
         </div>
         <p
@@ -74,6 +74,6 @@ const Schedule = () => {
       </div>
     </div>
   );
-}
+};
 
-export default Schedule
+export default Schedule;
