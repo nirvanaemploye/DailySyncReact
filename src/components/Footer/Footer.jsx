@@ -93,7 +93,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <hr className="mt-4 md:mt-20" />
+      <hr className="mt-4 md:mt-20 text-[#E2DFDF] opacity-20" />
       <p className="text-xs text-[#FFFFFF] text-center font-normal py-5 font-Poppins">
         Copyright2024. Dating solution Limited. All right reserved.{" "}
       </p>

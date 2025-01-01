@@ -38,7 +38,7 @@ const OurTeam = () => {
           <div
             data-aos="zoom-in"
             data-aos-duration="1500"
-            className="flex space-x-4 md:mx-7"
+            className="flex space-x-4 md:mx-6"
           >
             <div className="space-y-3">
               <img src={image1} alt="" />

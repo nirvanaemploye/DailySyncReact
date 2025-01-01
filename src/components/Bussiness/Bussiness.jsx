@@ -45,7 +45,7 @@ const Bussiness = () => {
                 <div
                   data-aos="fade-up"
                   data-aos-delay={data.aosDelay}
-                  className="rounded-full bg-[#232527] border border-[#b3fd8b] shadow-green  sm:h-auto md:h-[352px] sm:w-auto md:w-[352px] px-4 py-7 m-auto"
+                  className="rounded-full bg-[#232527] border border-[#63FF0F] shadow-green  sm:h-auto md:h-[352px] sm:w-auto md:w-[352px] px-4 py-7 m-auto"
                 >
                   <div className="text-center items-center justify-center space-y-5">
                     <h1 className="text-center text-4xl font-semibold text-[#FFFFFF] p-1 pt-6">

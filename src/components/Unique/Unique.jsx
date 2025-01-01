@@ -44,7 +44,7 @@ const Unique = () => {
                 <div
                   data-aos="fade-up"
                   data-aos-delay={data.aosDelay}
-                  className="bg-[#232527] rounded-[98px] border border-[#A975FF] p-10 space-y-3 shadow-purple"
+                  className="bg-[#232527] rounded-[98px] border border-[#A975FF] md:p-12 space-y-3 shadow-purple"
                 >
                   <h1 className="text-4xl font-medium text-center text-[#FFFFFF]">
                     {data.title}
