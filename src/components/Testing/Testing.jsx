@@ -1,6 +1,6 @@
 import React from 'react'
 import client from "../../assets/Group427322144.png";
-import aero from "../../assets/Group427322094.png";
+import aero from "../../assets/Aero_2.png";
 
 const Testing = () => {
   return (

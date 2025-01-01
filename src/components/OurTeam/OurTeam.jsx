@@ -2,7 +2,7 @@ import React from 'react'
 import image1 from "../../assets/Group427322135.png";
 import image2 from "../../assets/Group427322137.png";
 import image3 from "../../assets/Group427322136.png";
-import aero from "../../assets/Group427322094.png";
+import aero from "../../assets/Aero_2.png";
 
 const OurTeam = () => {
   return (

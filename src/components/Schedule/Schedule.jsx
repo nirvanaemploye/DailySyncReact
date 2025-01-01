@@ -1,5 +1,5 @@
 import React from 'react'
-import aero from "../../assets/Group427322094.png";
+import aero from "../../assets/Aero_2.png";
 
 const content = [
     {
@@ -39,7 +39,7 @@ const Schedule = () => {
             data-aos="fade-up"
             className="text-4xl xl:text-7xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#8C0AD9] to-[#1F7EFB] text-center"
           >
-            Schedeule app
+            Sched~`ule app
           </h1>
         </div>
         <p

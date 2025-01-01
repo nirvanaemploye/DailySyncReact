@@ -1,5 +1,5 @@
 import React from 'react'
-import aero from "../../assets/Group427322094.png";
+import aero from "../../assets/Aero_2.png";
 import group from "../../assets/group.png";
 
 const yearData = [
