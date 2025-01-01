@@ -7,7 +7,7 @@ const Testing = () => {
     <div>
       <div className="container mt-20 md:mt-44">
         <div className="flex flex-col-reverse md:grid grid-cols-1 xl:grid-cols-2 justify-between gap-6 gap-y-8 md:mx-10">
-          <div data-aos="zoom-in">
+          <div data-aos="zoom-in" className="xl:w-[554px] xl:h-[524px]">
             <img src={client} alt="" />
           </div>
           <div data-aos="fade-up" className="space-y-5 md:mx-4">
