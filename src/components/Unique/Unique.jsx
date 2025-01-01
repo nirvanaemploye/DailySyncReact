@@ -49,7 +49,7 @@ const Unique = () => {
                   <h1 className="text-4xl font-medium text-center text-[#FFFFFF]">
                     {data.title}
                   </h1>
-                  <p className="text-[#FFFFFF99] text-xl font-normal text-center">
+                  <p className="text-[#FFFFFF99] text-xl font-extralight text-center">
                     {data.description}
                   </p>
                 </div>
