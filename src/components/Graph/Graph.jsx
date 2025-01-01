@@ -5,7 +5,7 @@ const Graph = () => {
   return (
     <div>
       <div className="container mt-20 md:mt-44">
-        <div className="grid grid-cols-1 md:grid-cols-2  space-y-5">
+        <div className="grid grid-cols-1 xl:grid-cols-2  space-y-5">
           <div data-aos="zoom-in">
             <img src={pi} alt="" />
           </div>

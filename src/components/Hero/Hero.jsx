@@ -8,7 +8,7 @@ import two from '../../assets/two.png';
 const Hero = () => {
   return (
     <div className="container pt-24">
-      <div className="bg-[#211F3C] w-auto h-auto xl:w-[1240px] xl:h-[618px] border-2 border-[#A975FFCC]/80 mx-auto rounded-[80px]">
+      <div className="bg-[#211F3C] w-auto h-auto 2xl:w-[1240px] 2xl:h-[618px] border-2 border-[#A975FFCC]/80 mx-auto rounded-[80px]">
         <div className="flex flex-col-reverse md:flex-row md:p-24 md:pb-0 md:pt-40">
           {/* Hero Content */}
           <div className="md:w-8/12 md:space-y-10 md:pt-12">
@@ -32,7 +32,7 @@ const Hero = () => {
             <div
               data-aos="fade-up"
               data-aos-delay="600"
-              className="flex flex-col md:flex-row gap-3 md:gap-6 items-center py-4 md:py-0"
+              className="flex flex-col md:flex-row gap-3 md:gap-6 items-center py-4 md:py-2"
             >
               <button className="md:w-auto md:h-auto w-28 h-10">
                 <img src={AppStore} alt="" />

@@ -44,7 +44,7 @@ const Schedule = () => {
         </div>
         <p
           data-aos="fade-up"
-          className="text-xl md:text-2xl text-center font-normal text-[#FFFFFF99] mt-2 md:mt-6"
+          className="text-xl  text-center font-normal text-[#FFFFFF99] mt-2 md:mt-6"
         >
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy text ever
