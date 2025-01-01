@@ -27,7 +27,7 @@ const content = [
 const Schedule = () => {
   return (
     <div className="container mt-10 md:mt-40">
-      <div>
+      <div className="space-y-4">
         <div className="flex text-center justify-center">
           <img
             data-aos="fade-down"
