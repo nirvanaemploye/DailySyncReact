@@ -2,21 +2,24 @@ import React from 'react'
 import aero from "../../assets/Aero_2.png";
 
 const uniqueItem = [
-    {
-        title: "Live Feed",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Aenean sed magna ullamcorper, scelerisque purus sit amet, pharetra sem. Praesent molestie lectus eget leo ",
-        aosDelay: "0",
-    },
-    {
-        title: "Diverse",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Aenean sed magna ullamcorper, scelerisque purus sit amet, pharetra sem. Praesent molestie lectus eget leo ",
-        aosDelay: "500",
-    },
-    {
-        title: "Schedule Event",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Aenean sed magna ullamcorper, scelerisque purus sit amet, pharetra sem. Praesent molestie lectus eget leo ",
-        aosDelay:"1000",
-    },
+  {
+    title: "Live Feed",
+    description:
+      "Draft your future posts during your spare time, with support for multiple social media apps. Plan and schedule your content effortlessly across various platforms, saving time.",
+    aosDelay: "0",
+  },
+  {
+    title: "Diverse",
+    description:
+      "This unique app provides the facility to post feeds to multiple apps from a single platform and helps you manage and track your past posts. Easily streamline your social media presence and stay organized.",
+    aosDelay: "500",
+  },
+  {
+    title: "Schedule Event",
+    description:
+      "You can schedule all your future events over the weekend, so you can save time and avoid drafting them during busy days.This helps you stay organized and ensures consistency in your posts.",
+    aosDelay: "1000",
+  },
 ];
 
 const Unique = () => {
@@ -49,7 +52,7 @@ const Unique = () => {
                   <h1 className="text-4xl font-medium text-center text-[#FFFFFF]">
                     {data.title}
                   </h1>
-                  <p className="text-[#FFFFFF99] text-xl font-extralight text-center">
+                  <p className="text-[#FFFFFF99] text-xl font-normal text-center">
                     {data.description}
                   </p>
                 </div>

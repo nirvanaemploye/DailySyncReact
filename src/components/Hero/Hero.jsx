@@ -25,8 +25,8 @@ const Hero = () => {
                 data-aos-delay="600"
                 className="text-white text-xl lg:text-3xl text-center md:text-left w-4/5 mx-auto md:mx-0"
               >
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry
+                "Streamlining tasks, enhancing communication, and keeping your
+                team synced every day effortlessly."
               </p>
             </div>
             <div
@@ -34,12 +34,20 @@ const Hero = () => {
               data-aos-delay="600"
               className="flex flex-col md:flex-row gap-3 md:gap-6 items-center py-4 md:py-2"
             >
-              <button className="md:w-auto md:h-auto w-28 h-10">
+              <a className="md:w-auto md:h-auto w-28 h-10">
                 <img src={AppStore} alt="" />
-              </button>
-              <button className="md:w-auto md:h-auto w-28 h-10">
-                <img src={Googleplay} alt="" />
-              </button>
+              </a>
+              <a
+                href="https://play.google.com/store/apps/details?id=com.taskwave.dailysync&hl=en"
+                target="_blank"
+                className="md:w-auto md:h-auto w-28 h-10"
+              >
+                <img
+                  src={Googleplay}
+                  alt=""
+                  onClick="https://play.google.com/store/apps/details?id=com.taskwave.dailysync&hl=en"
+                />
+              </a>
             </div>
           </div>
           {/* Hero Image */}

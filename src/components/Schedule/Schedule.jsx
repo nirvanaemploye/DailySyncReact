@@ -4,22 +4,22 @@ import aero from "../../assets/Aero_2.png";
 const content = [
   {
     id: "01",
-    para: "First-Ever Live Feed On A Schedule App",
+    para: "Multiple Apps on a single Platform",
     aosDelay: "0",
   },
   {
     id: "02",
-    para: "First-Ever Live Feed On A Schedule App",
+    para: "Schedule your Feeds and Plans",
     aosDelay: "500",
   },
   {
     id: "03",
-    para: "First-Ever Live Feed On A Schedule App",
+    para: "Recieve on time Notification",
     aosDelay: "1000",
   },
   {
     id: "04",
-    para: "First-Ever Live Feed On A Schedule App",
+    para: "Launch Feed on a single Click",
     aosDelay: "1500",
   },
 ];
@@ -46,9 +46,9 @@ const Schedule = () => {
           data-aos="fade-up"
           className="text-xl  text-center font-normal text-[#FFFFFF99] mt-2 md:mt-6"
         >
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s
+          Daily Sync's scheduling app helps you effortlessly plan, organize, and
+          automate social media posts across multiple platforms, saving time
+          while ensuring consistent content delivery every day.
         </p>
       </div>
       {/* Grids */}

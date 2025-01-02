@@ -1,6 +1,6 @@
 import React from 'react'
 import aero from "../../assets/Aero_2.png";
-import group from "../../assets/group.png";
+import group from "../../assets/problem.png";
 
 const yearData = [
   {
@@ -46,7 +46,7 @@ const Investment = () => {
             })}
           </div>
         </div> */}
-        <div className=''>
+        <div className="">
           <img src={group} alt="" />
         </div>
         <div className=" -ml-0 md:-ml-16">
@@ -63,19 +63,22 @@ const Investment = () => {
           </div>
           <div className="text-[#FFFFFF99] text-xl font-normal space-y-3">
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s
+              Currently, we are in the process of raising a total round of
+              £250,000. To ensure that our board remains manageable and
+              effective, we are offering board seats to investors who contribute
+              a significant amount, typically above £250,000.
             </p>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s
+              However, we also welcome potential investors with as little as
+              £50,000 to join us on this exciting journey. If you're interested
+              in getting involved, you can reach out to us through the contact
+              information provided on our website or through any other
+              designated communication channels.
             </p>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s
+              As discussions progress further, we will determine and communicate
+              the closing date for the round. We can't wait to connect with
+              potential investors and explore the possibilities together!
             </p>
           </div>
         </div>

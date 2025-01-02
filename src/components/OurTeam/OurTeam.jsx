@@ -29,10 +29,10 @@ const OurTeam = () => {
               data-aos-duration="1000"
               className="text-xl font-normal text-[#FFFFFF99]"
             >
-              Lorem Ipsum is simply dummy text of the printing andtypesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
+              Our talented team—John (CEO), Sarah (Lead Developer), Alex
+              (Designer), and Emma (Marketing) tirelessly at Daily Sync,
+              combining expertise in technology and design to simplify social
+              media scheduling for users globally.
             </p>
           </div>
           <div

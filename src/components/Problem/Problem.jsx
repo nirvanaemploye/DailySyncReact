@@ -6,13 +6,13 @@ const third = [
   {
     title: "Problem",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Aenean sed magna ullamcorper, scelerisque purus sit amet, pharetra sem. Praesent molestie lectus eget leo ",
+      "In the current scenario, I have to launch each platform to post related feeds and remain available to post them during busy hours.",
     aosDelay: "0",
   },
   {
     title: "Solution",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Aenean sed magna ullamcorper, scelerisque purus sit amet, pharetra sem. Praesent molestie lectus eget leo ",
+      "In this app, you can draft your future posts during your spare time on a single platform for multiple apps.",
     aosDelay: "500",
   },
 ];

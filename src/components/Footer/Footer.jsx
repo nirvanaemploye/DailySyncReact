@@ -20,7 +20,7 @@ const Footer = () => {
       <div className="container mt-20 md:mt-36">
         <div
           data-aos="fade-up"
-          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-16 justify-between pt-4 md:pt-24"
+          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-between pt-4 md:pt-24"
         >
           <div data-aos="zoom-in" className="mx-auto">
             <img src={logo} alt="" />
@@ -41,36 +41,40 @@ const Footer = () => {
             </div>
             <div>
               <ul>
-                <h1 className="text-2xl font-bold text-[#FFFFFF]">ABOUT</h1>
+                <h1 className="text-2xl font-bold text-[#FFFFFF]">
+                  GET IN TOUCH
+                </h1>
                 <li className="text-2xl font-normal text-[#FFFFFF]">
-                  <strong>COMPANY NAME : </strong>PGLTech ltd
+                  <a href="tel:+919722278859" className="flex gap-x-2">
+                    <FaPhoneAlt className="mt-1" /> +91 9722278859
+                  </a>
                 </li>
                 <li className="text-2xl font-normal text-[#FFFFFF]">
-                  <strong>HQ LOCATION : </strong>India
+                  <a
+                    href="mailto:hitnhammertechnologies0706@gmail.com"
+                    className="flex gap-x-2"
+                  >
+                    <TbMailFilled className="mt-1" />
+                    hitnhammertechnologies0706@gmail.com
+                  </a>
                 </li>
               </ul>
             </div>
           </div>
-          <div>
+          <div className="">
             <ul>
-              <h1 className="text-2xl font-bold text-[#FFFFFF]">
-                GET IN TOUCH
-              </h1>
+              <h1 className="text-2xl font-bold text-[#FFFFFF]">ABOUT</h1>
               <li className="text-2xl font-normal text-[#FFFFFF]">
-                <h1 className="flex gap-x-2">
-                  <TbMailFilled className="mt-1" /> datingxyzalgo.com
-                </h1>
+                <strong>COMPANY NAME : </strong>HIT n HAMMER
               </li>
               <li className="text-2xl font-normal text-[#FFFFFF]">
-                <h1 className="flex gap-x-2">
-                  <FaPhoneAlt className="mt-1" /> +91 7894560123
-                </h1>
+                <strong>HQ LOCATION : </strong>Bilimora
               </li>
             </ul>
           </div>
           <div className="space-y-7">
             <div className="space-y-3">
-              <div className="grid sm:flex sm:space-x-3 justify-center lg:-ml-8">
+              <div className="grid sm:flex sm:space-x-3 justify-center 2xl:-ml-24">
                 <img src={fb} alt="" />
                 <img src={linkedIn} alt="" />
                 <img src={twitter} alt="" />
@@ -83,12 +87,15 @@ const Footer = () => {
               </div>
             </div>
             <div className="flex space-x-2">
-              <div>
+              <a>
                 <img src={appstore} alt="" className="" />
-              </div>
-              <div>
+              </a>
+              <a
+                href="https://play.google.com/store/apps/details?id=com.taskwave.dailysync&hl=en"
+                target="_blank"
+              >
                 <img src={googlePlay} alt="" className="" />
-              </div>
+              </a>
             </div>
           </div>
         </div>
