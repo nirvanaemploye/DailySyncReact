@@ -19,7 +19,7 @@ const Market = () => {
                 The Market Trend
               </h1>
             </div>
-            <p className="text-xl font-normal text-[#FFFFFF99] h-auto w-auto md:h-60 md:w-96">
+            <p className="text-xl font-normal text-[#FFFFFF99] h-auto w-auto md:h-60 md:w-[439px]">
               Lorem Ipsum is simply dummy text of the printing industry. Lorem
               Ipsum has been the industry's text ever since the 1500s, when an
               unknown of type and scrambled it to make a type survived not only
