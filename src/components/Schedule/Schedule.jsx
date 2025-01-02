@@ -46,7 +46,7 @@ const Schedule = () => {
           data-aos="fade-up"
           className="text-xl  text-center font-normal text-[#FFFFFF99] mt-2 md:mt-6"
         >
-          Daily Sync's scheduling app helps you effortlessly plan, organize, and
+          Helps you effortlessly plan, organize, and
           automate social media posts across multiple platforms, saving time
           while ensuring consistent content delivery every day.
         </p>

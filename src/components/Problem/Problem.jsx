@@ -6,13 +6,13 @@ const third = [
   {
     title: "Problem",
     description:
-      "In the current scenario, I have to launch each platform to post related feeds and remain available to post them during busy hours.",
+      "In the current scenario, I have to launch every platform to post related feeds and must be available to post during busy hours. This app streamlines the process, saving you time while ensuring consistency across platforms without constant availability for posting during peak hours.",
     aosDelay: "0",
   },
   {
     title: "Solution",
     description:
-      "In this app, you can draft your future posts during your spare time on a single platform for multiple apps.",
+      "In this app, you can draft your future posts during your spare time on a single platform for multiple apps.This feature allows you to schedule posts in advance, ensuring consistency and saving time across all your social media platforms efficiently.",
     aosDelay: "500",
   },
 ];
