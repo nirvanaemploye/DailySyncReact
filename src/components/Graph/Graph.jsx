@@ -10,10 +10,10 @@ const Graph = () => {
             <img src={pi} alt="" />
           </div>
           <div
-            // data-aos="fade-up"
+            data-aos="fade-up"
             className=" bg-gradient-to-r from-[#1F7EFB] to-[#8C0AD9] text-[#ffffff] text-xl sm:text-3xl h-auto lg:h-48 w-auto lg:w-[537px] rounded-3xl md:mx-5 lg:!mt-28"
           >
-            <p className="p-4 text-center md:text-left">
+            <p data-aos="fade-up" className="p-4 text-center md:text-left">
               WITH £250,000, WE WILL COVER EXPANDING THE APP, MARKETING,
               ENGINEERING, AND DEVELOPMENT EXPENSES OVER A ONE-YEAR PERIOD
             </p>

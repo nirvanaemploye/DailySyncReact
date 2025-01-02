@@ -25,8 +25,8 @@ const Hero = () => {
                 data-aos-delay="600"
                 className="text-white text-xl lg:text-3xl text-center md:text-left w-4/5 mx-auto md:mx-0"
               >
-                "Streamlining tasks, enhancing communication, and keeping your
-                team synced every day effortlessly."
+                Streamlining tasks, enhancing communication, and keeping your
+                team synced every day effortlessly.
               </p>
             </div>
             <div

@@ -64,21 +64,19 @@ const Investment = () => {
           <div className="text-[#FFFFFF99] text-xl font-normal space-y-3">
             <p>
               Currently, we are in the process of raising a total round of
-              £250,000. To ensure that our board remains manageable and
-              effective, we are offering board seats to investors who contribute
-              a significant amount, typically above £250,000.
+              £250,000 for the Daily Sync App. To ensure a focused and efficient
+              decision-making process, we are offering board seats to investors
+              who contribute a significant amount, typically above £250,000.
             </p>
             <p>
-              However, we also welcome potential investors with as little as
-              £50,000 to join us on this exciting journey. If you're interested
-              in getting involved, you can reach out to us through the contact
-              information provided on our website or through any other
-              designated communication channels.
+              However, we also invite potential investors with contributions as
+              small as £50,000 to join us on this exciting journey as we reshape
+              the future of social media management.
             </p>
             <p>
-              As discussions progress further, we will determine and communicate
-              the closing date for the round. We can't wait to connect with
-              potential investors and explore the possibilities together!
+              If you're interested in becoming part of this innovative project,
+              you can reach out to us through the contact information provided
+              on our website or any other designated communication channels.
             </p>
           </div>
         </div>
