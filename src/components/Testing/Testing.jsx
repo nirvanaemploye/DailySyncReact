@@ -17,7 +17,7 @@ const Testing = () => {
                 alt=""
                 className="hidden xl:block h-20 w-16 pb-8"
               />
-              <h1 className="text-5xl md:text-7xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#8C0AD9] to-[#1F7EFB]">
+              <h1 data-aos='fade-up' className="text-5xl md:text-7xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#8C0AD9] to-[#1F7EFB]">
                 Testing & Market Analysis
               </h1>
             </div>

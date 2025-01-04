@@ -6,7 +6,7 @@ const third = [
   {
     title: "Problem",
     description:
-      "In the current scenario, I have to launch every platform to post related feeds and must be available to post during busy hours. This app streamlines the process, saving you time while ensuring consistency across platforms without constant availability for posting during peak hours.",
+      "In the current scenario, We have to launch every platform to post related feeds and must be available to post during busy hours. This app streamlines the process, saving you time while ensuring consistency across platforms without constant availability for posting during peak hours.",
     aosDelay: "0",
   },
   {

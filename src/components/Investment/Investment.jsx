@@ -57,20 +57,20 @@ const Investment = () => {
               alt=""
               className="hidden xl:block h-20 w-16 pb-8 -ml-16"
             />
-            <h1 className="text-3xl sm:text-5xl lg:text-7xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#8C0AD9] to-[#1F7EFB] mb-3">
+            <h1 data-aos='fade-up' className="text-3xl sm:text-5xl lg:text-7xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#8C0AD9] to-[#1F7EFB] mb-3">
               Investment Opportunity
             </h1>
           </div>
           <div className="text-[#FFFFFF99] text-xl font-normal space-y-3">
             <p>
               Currently, we are in the process of raising a total round of
-              £250,000 for the Daily Sync App. To ensure a focused and efficient
+              £7,680 for the Daily Sync App. To ensure a focused and efficient
               decision-making process, we are offering board seats to investors
-              who contribute a significant amount, typically above £250,000.
+              who contribute a significant amount, typically above £7,680.
             </p>
             <p>
               However, we also invite potential investors with contributions as
-              small as £50,000 to join us on this exciting journey as we reshape
+              small as £3,840 to join us on this exciting journey as we reshape
               the future of social media management.
             </p>
             <p>

@@ -15,7 +15,7 @@ const Market = () => {
                 alt=""
                 className="hidden xl:block h-20 w-16 pb-8 -ml-16"
               />
-              <h1 className="text-5xl lg:text-7xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#1F7EFB] to-[#8C0AD9]">
+              <h1 data-aos='fade-up' className="text-5xl lg:text-7xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#1F7EFB] to-[#8C0AD9]">
                 The Market Trend
               </h1>
             </div>

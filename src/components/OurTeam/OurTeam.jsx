@@ -29,8 +29,8 @@ const OurTeam = () => {
               data-aos-duration="1000"
               className="text-xl font-normal text-[#FFFFFF99]"
             >
-              Our dedicated team—John (CEO), Sarah (Lead Developer), Alex
-              (Designer), Emma (Marketing)—work collaboratively to provide
+              Our dedicated team—Nirav Mistry (CEO), Karishma Mistry (Lead Developer), Roshan Tailor
+              (Designer)—work collaboratively to provide
               seamless social media scheduling, enhancing efficiency and user
               experience for businesses and individuals alike. Each team member
               brings unique skills: John's leadership, Sarah's tech expertise,
