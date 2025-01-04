@@ -20,17 +20,17 @@ const Input = () => {
           </p>
           <div
             data-aos="fade-up"
-            className="border border-white rounded-full flex mb-4 lg:w-[502px] mx-auto"
+            className="border border-white rounded-full flex mb-4 w-auto lg:w-[502px] mx-auto"
           >
             <input
               type="text"
               placeholder="Enter Your Email"
-              className="bg-transparent text-left w-full px-4 py-3 text-xl text-[#FFFFFF] outline-none "
+              className="bg-transparent text-left w-full px-1 py-1 md:px-4 md:py-3 text-xl text-[#FFFFFF] outline-none "
             />
             <button
               data-aos="fade-up"
               data-aos-duration="1000"
-              className="bg-gradient-to-r from-blue-500 to-purple-600 text-white px-6 py-2 rounded-full font-semibold hover:opacity-90 transition m-1"
+              className="bg-gradient-to-r from-blue-500 to-purple-600 text-white md:px-6 md:py-2 rounded-full font-semibold hover:opacity-90 transition m-1"
             >
               Subscribe
             </button>

@@ -20,9 +20,9 @@ const Footer = () => {
       <div className="container mt-20 md:mt-36">
         <div
           data-aos="fade-up"
-          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-between pt-4 md:pt-24"
+          className="grid grid-cols-1 md:grid-cols-4 space-x-5 lg:grid-cols-4 justify-between pt-4 md:pt-24"
         >
-          <div data-aos="zoom-in" className="mx-auto 2xl:-ml-3">
+          <div data-aos="zoom-in" className="mx-auto text-center 2xl:-ml-3">
             <img src={logo} alt="" />
           </div>
           <div className="space-y-6">
@@ -49,12 +49,12 @@ const Footer = () => {
                     <FaPhoneAlt className="mt-1" /> +91 9722278859
                   </a>
                 </li>
-                <li className="text-2xl font-normal text-[#FFFFFF]">
+                <li className="break-all text-2xl font-normal text-[#FFFFFF]">
                   <a
                     href="mailto:hitnhammertechnologies0706@gmail.com"
                     className="flex gap-x-2"
                   >
-                    <TbMailFilled className="mt-1" />
+                    <TbMailFilled className="mt-1 text-7xl md:text-5xl" />
                     hitnhammertechnologies0706@gmail.com
                   </a>
                 </li>
@@ -74,7 +74,7 @@ const Footer = () => {
           </div>
           <div className="space-y-7 2xl:ml-16">
             <div className="space-y-3">
-              <div className="grid sm:flex sm:space-x-3 justify-center 2xl:-ml-2">
+              <div className="grid sm:flex sm:space-x-0 lg:space-x-3 justify-center 2xl:-ml-14">
                 <img src={fb} alt="" />
                 <img src={linkedIn} alt="" />
                 <img src={twitter} alt="" />
@@ -86,7 +86,7 @@ const Footer = () => {
                 </h1>
               </div>
             </div>
-            <div className="flex space-x-2">
+            <div className="flex space-x-2 justify-center lg:justify-start">
               <a>
                 <img src={appstore} alt="" className="" />
               </a>

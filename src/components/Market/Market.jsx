@@ -34,7 +34,7 @@ const Market = () => {
               work-life balance.
             </p>
           </div>
-          <div data-aos="zoom-in" className="m-auto ">
+          <div data-aos="zoom-in" className="m-auto !mt-24 xl:mt-0">
             <img src={graph} alt="" />
           </div>
         </div>

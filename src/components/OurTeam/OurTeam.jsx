@@ -8,7 +8,7 @@ const OurTeam = () => {
   return (
     <div>
       <div className="container mt-20 md:mt-44">
-        <div className="grid grid-cols-1 md:grid-cols-2 justify-between gap-5">
+        <div className="grid grid-cols-1 xl:grid-cols-2 justify-between gap-5">
           <div className="space-y-4">
             <div className="flex">
               <img

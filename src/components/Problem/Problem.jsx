@@ -20,7 +20,7 @@ const third = [
 const Problem = () => {
   return (
     <div className="container mt-20 md:mt-44">
-      <div className="grid lg:grid-cols-2 md:mx-16">
+      <div className="grid xl:grid-cols-2 md:mx-16">
         <div data-aos="zoom-in" className="">
           <img src={client} alt="" />
         </div>
