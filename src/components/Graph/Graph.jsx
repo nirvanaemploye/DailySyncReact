@@ -1,5 +1,5 @@
 import React from "react";
-import pi from "../../assets/Group427322053.png";
+import pi from "../../assets/graph.png";
 
 const Graph = () => {
   return (
@@ -14,7 +14,7 @@ const Graph = () => {
             className=" bg-gradient-to-r from-[#1F7EFB] to-[#8C0AD9] text-[#ffffff] text-xl sm:text-3xl h-auto lg:h-48 w-auto lg:w-[537px] rounded-3xl md:mx-5 lg:!mt-28"
           >
             <p data-aos="fade-up" className="p-4 text-center md:text-left">
-              WITH £250,000, WE WILL COVER EXPANDING THE APP, MARKETING,
+              WITH £7,680, WE WILL COVER EXPANDING THE APP, MARKETING,
               ENGINEERING, AND DEVELOPMENT EXPENSES OVER A ONE-YEAR PERIOD
             </p>
           </div>

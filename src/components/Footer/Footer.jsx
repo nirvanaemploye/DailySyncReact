@@ -22,7 +22,7 @@ const Footer = () => {
           data-aos="fade-up"
           className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-between pt-4 md:pt-24"
         >
-          <div data-aos="zoom-in" className="mx-auto">
+          <div data-aos="zoom-in" className="mx-auto 2xl:-ml-3">
             <img src={logo} alt="" />
           </div>
           <div className="space-y-6">
@@ -72,9 +72,9 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className="space-y-7">
+          <div className="space-y-7 2xl:ml-16">
             <div className="space-y-3">
-              <div className="grid sm:flex sm:space-x-3 justify-center 2xl:-ml-24">
+              <div className="grid sm:flex sm:space-x-3 justify-center 2xl:-ml-2">
                 <img src={fb} alt="" />
                 <img src={linkedIn} alt="" />
                 <img src={twitter} alt="" />

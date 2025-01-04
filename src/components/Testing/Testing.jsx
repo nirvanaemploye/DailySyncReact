@@ -17,18 +17,21 @@ const Testing = () => {
                 alt=""
                 className="hidden xl:block h-20 w-16 pb-8"
               />
-              <h1 data-aos='fade-up' className="text-5xl md:text-7xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#8C0AD9] to-[#1F7EFB]">
+              <h1
+                data-aos="fade-up"
+                className="text-5xl md:text-7xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#8C0AD9] to-[#1F7EFB]"
+              >
                 Testing & Market Analysis
               </h1>
             </div>
             <p className="text-xl font-normal text-[#FFFFFF99] h-auto w-auto md:h-60 md:w-[391px]">
-              Lorem Ipsum is simply dummy text of the printing industry. Lorem
-              Ipsum has been the industry's text ever since the 1500s, when an
-              unknown of type and scrambled it to make a type survived not only
-              five centuries, but also typesetting, remaining essentially
-              unchanged. in the 1960s with the release of Letraset sheets Ipsum
-              passages, and more recently with desktop like Aldus PageMaker
-              including versions
+              Thorough testing and market analysis were conducted to ensure
+              DailySync delivers a seamless user experience. Testing covered
+              functionality, performance, and usability across devices and
+              operating systems for reliable event scheduling. Market analysis
+              identified user needs, trends, and competitor offerings, refining
+              the app’s features to enhance competitiveness and align with user
+              expectations, setting DailySync apart in the market.
             </p>
           </div>
         </div>

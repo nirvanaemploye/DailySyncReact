@@ -15,9 +15,8 @@ const Input = () => {
             Subscribe
           </h1>
           <p data-aos="fade-up" className="text-xl text-[#FFFFFF99]">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s
+            Subscribe to DailySync for the latest updates, exclusive features,
+            and time-saving tips to optimize your scheduling and productivity
           </p>
           <div
             data-aos="fade-up"
