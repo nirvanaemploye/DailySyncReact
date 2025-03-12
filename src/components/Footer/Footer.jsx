@@ -1,4 +1,4 @@
-import desktopImg from "../../assets/footerBg.png";
+import desktopImg from "../../assets/FooterBg.png";
 import logo from "../../assets/Group427322069.png";
 import { FaPhoneAlt } from "react-icons/fa";
 import fb from "../../assets/Facebook.png";
