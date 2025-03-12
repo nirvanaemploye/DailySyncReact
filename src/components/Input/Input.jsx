@@ -1,6 +1,6 @@
 const Input = () => {
   return (
-    <section className="py-28">
+    <section className="py-28 px-3">
       <div
         data-aos="fade"
         className="container mx-auto min-h-[313px] rounded-[52px] sm:rounded-[84px] bg-[#0A1C34] border border-white text-center px-6 py-10 md:w-[90%] lg:w-[1039px] "
@@ -29,7 +29,7 @@ const Input = () => {
             <button
               data-aos="zoom-in"
               data-aos-duration="100"
-              className="bg-gradient-to-r from-blue-500 to-purple-600 text-white px-6 py-3 font-semibold hover:opacity-90 transition rounded-full m-[2px]"
+              className="bg-gradient-to-r from-blue-500 to-purple-600 text-white sm:px-6 px-4 py-2 sm:py-3 font-semibold hover:opacity-90 transition rounded-full m-[2px]"
             >
               Subscribe
             </button>

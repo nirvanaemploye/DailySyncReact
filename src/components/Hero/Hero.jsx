@@ -10,21 +10,21 @@ const Hero = () => {
   return (
     <div className="container sm:pb-32 pt-16">
       <div className="bg-[#211F3C] border-2 border-[#A975FFCC]/80 rounded-[80px]">
-        <div className="flex flex-col-reverse md:flex-row md:mx-16 md:my-36 my-10 ">
+        <div className="flex flex-col-reverse md:flex-row sm:mx-16 mx-8 md:my-36 my-10 ">
           {/* Hero Content */}
           <div className="md:w-8/12 md:space-y-10 my-auto">
             <div className="space-y-4">
               <div
                 data-aos="fade-up"
                 data-aos-delay="200"
-                className="font-extrabold text-4xl lg:text-6xl xl:text-8xl text-transparent bg-clip-text bg-gradient-to-r from-[#F50592] via-[#529FFC] to-[#3333CB] text-center md:text-left"
+                className="font-extrabold text-4xl sm:text-6xl xl:text-8xl text-transparent bg-clip-text bg-gradient-to-r from-[#F50592] via-[#529FFC] to-[#3333CB] text-center md:text-left"
               >
                 Dailysync app
               </div>
               <p
                 data-aos="fade-up"
                 data-aos-delay="300"
-                className="text-white text-xl lg:text-3xl text-center md:text-left w-4/5 mx-auto md:mx-0"
+                className="text-white text-xl lg:text-3xl text-center md:text-left w-10/12 mx-auto md:mx-0"
               >
                 Streamlining tasks, enhancing communication, and keeping your
                 team synced every day effortlessly.

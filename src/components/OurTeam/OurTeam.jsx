@@ -18,7 +18,7 @@ const OurTeam = () => {
               />
               <h1
                 data-aos="fade-up"
-                className=" pb-5 text-6xl lg:text-7xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#8C0AD9] to-[#1F7EFB] text-center md:text-left"
+                className=" pb-5 text-6xl lg:text-7xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#8C0AD9] to-[#1F7EFB] text-center mx-auto xl:mx-0 xl:text-left"
               >
                 Our Team
               </h1>
