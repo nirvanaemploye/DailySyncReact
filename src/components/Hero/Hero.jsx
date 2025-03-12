@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 
 const Hero = () => {
   return (
-    <div className="container sm:pb-32 pt-16">
+    <div className="container sm:pb-16 pt-16">
       <div className="bg-[#211F3C] border-2 border-[#A975FFCC]/80 rounded-[80px]">
         <div className="flex flex-col-reverse md:flex-row mx-0 sm:mx-10 xl:mx-16 my-10 sm:my-20 xl:my-36 ">
           {/* Hero Content */}
