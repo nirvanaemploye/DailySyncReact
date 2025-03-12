@@ -1,6 +1,6 @@
 import icon from "../../assets/Dailysync16.png";
 // import AppStore from "../../assets/appStore.png";
-import AppStore from "../../assets/AppStore.png"
+import AppStore from "../../assets/AppStore.png";
 import Googleplay from "../../assets/GooglePlay.png";
 import ticon from "../../assets/Ellipse268.png";
 import two from "../../assets/two.png";

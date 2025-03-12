@@ -1,6 +1,6 @@
-import image1 from "../../assets/jon.png";
-import image2 from "../../assets/tom.png";
-import image3 from "../../assets/siya.png";
+import image1 from "../../assets/Jon.png";
+import image2 from "../../assets/Tom.png";
+import image3 from "../../assets/Siya.png";
 import aero from "../../assets/Aero.png";
 
 const OurTeam = () => {
