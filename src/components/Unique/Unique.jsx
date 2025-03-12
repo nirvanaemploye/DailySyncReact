@@ -1,5 +1,4 @@
-import React from 'react'
-import aero from "../../assets/Aero_2.png";
+import aero from "../../assets/Aero.png";
 
 const uniqueItem = [
   {
@@ -24,8 +23,8 @@ const uniqueItem = [
 
 const Unique = () => {
   return (
-    <div>
-      <div className="container mt-20 md:mt-44">
+    <div className="sm:py-32 py-16">
+      <div className="container">
         <div className="space-y-8">
           <div className="flex text-center justify-center">
             <img
@@ -36,23 +35,24 @@ const Unique = () => {
             />
             <h1
               data-aos="fade-up"
-              className="text-4xl xl:text-7xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#8C0AD9] to-[#1F7EFB] text-center"
+              className="text-6xl xl:text-7xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#8C0AD9] to-[#1F7EFB] text-center pb-8"
             >
               Unique Features
             </h1>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 justify-between gap-10">
+          <div className="grid grid-cols-1 lg:grid-cols-3 justify-between gap-6">
             {uniqueItem.map((data) => {
               return (
                 <div
+                key={data.id}
                   data-aos="fade-up"
                   data-aos-delay={data.aosDelay}
-                  className="bg-[#232527] rounded-[98px] border border-[#A975FF] md:p-12 space-y-3 shadow-purple"
+                  className="bg-[#232527] rounded-[98px] border border-[#A975FF] md:p-10 p-7 space-y-3 shadow-purple"
                 >
                   <h1 className="text-4xl font-medium text-center text-[#FFFFFF]">
                     {data.title}
                   </h1>
-                  <p className="text-[#FFFFFF99] text-xl font-normal text-center">
+                  <p className="text-[#FFFFFF99] text-xl font-normal text-center p-1 ">
                     {data.description}
                   </p>
                 </div>

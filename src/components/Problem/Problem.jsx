@@ -1,13 +1,11 @@
-import React from "react";
-import client from "../../assets/Group427322555.png";
-import { data } from "autoprefixer";
+import client from "../../assets/client.png";
 
 const third = [
   {
     title: "Problem",
     description:
       "In the current scenario, We have to launch every platform to post related feeds and must be available to post during busy hours. This app streamlines the process, saving your time while ensuring consistency across platforms without constant availability for posting during peak hours.",
-    aosDelay: "0",
+    aosDelay: "300",
   },
   {
     title: "Solution",
@@ -19,16 +17,18 @@ const third = [
 
 const Problem = () => {
   return (
-    <div className="container mt-20 md:mt-44">
-      <div className="grid xl:grid-cols-2 md:mx-16">
-        <div data-aos="zoom-in" className="">
-          <img src={client} alt="" />
+    <section className="sm:py-32 py-16">
+    <div className="container">
+      <div className="grid xl:grid-cols-2 gap-x-9 gap-y-16 xl:gap-y-0">
+        <div data-aos="zoom-in" className="mx-auto ">
+          <img src={client} alt=" " className="h-full" />
         </div>
-        <div>
-          <div className="grid grid-cols-1 md:grid-rows-2 gap-3 mt-10">
+        <div className="">
+          <div className="grid grid-cols-1 md:grid-rows-2 gap-3 ">
             {third.map((data) => {
               return (
                 <div
+                key={data.id}
                   data-aos="fade-up"
                   data-aos-delay={data.aosDelay}
                   className="space-y-4 mt-4"
@@ -46,6 +46,7 @@ const Problem = () => {
         </div>
       </div>
     </div>
+    </section>
   );
 };
 

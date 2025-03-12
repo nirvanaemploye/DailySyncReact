@@ -1,45 +1,43 @@
-import React from 'react'
-
 const Input = () => {
   return (
-    <>
+    <section className="py-28">
       <div
-        data-aos="zoom-in"
-        className="container min-h-[313px] rounded-[84px] bg-[#0A1C34] border border-white text-center md:w-[1039px] mt-20 md:mt-44"
+        data-aos="fade"
+        className="container mx-auto min-h-[313px] rounded-[52px] sm:rounded-[84px] bg-[#0A1C34] border border-white text-center px-6 py-10 md:w-[90%] lg:w-[1039px] "
       >
-        <div className="md:w-10/12 m-auto md:space-y-8 space-y-2 pt-8">
+        <div className="md:w-10/12 m-auto space-y-5 md:space-y-8">
           <h1
-            data-aos="fade-up"
+            data-aos="zoom-in"
             className="font-normal text-white text-3xl sm:text-5xl font-serif"
           >
             Subscribe
           </h1>
-          <p data-aos="fade-up" className="text-xl text-[#FFFFFF99]">
+          <p data-aos="zoom-in" className="text-lg md:text-xl text-white/80">
             Subscribe to DailySync for the latest updates, exclusive features,
-            and time-saving tips to optimize your scheduling and productivity
+            and time-saving tips to optimize your scheduling and productivity.
           </p>
           <div
-            data-aos="fade-up"
-            className="border border-white rounded-full flex mb-4 w-auto lg:w-[502px] mx-auto"
+            data-aos="zoom-in"
+            data-aos-duration="500"
+            className="border border-white rounded-3xl flex items-center w-full lg:w-[502px] mx-auto overflow-hidden"
           >
             <input
-              type="text"
+              type="email"
               placeholder="Enter Your Email"
-              className="bg-transparent text-left w-full px-1 py-1 md:px-4 md:py-3 text-xl text-[#FFFFFF] outline-none "
+              className="bg-transparent w-full px-4 py-3 text-base md:text-lg text-white outline-none"
             />
             <button
-              data-aos="fade-up"
-              data-aos-duration="1000"
-              className="bg-gradient-to-r from-blue-500 to-purple-600 text-white md:px-6 md:py-2 rounded-full font-semibold hover:opacity-90 transition m-1"
+              data-aos="zoom-in"
+              data-aos-duration="100"
+              className="bg-gradient-to-r from-blue-500 to-purple-600 text-white px-6 py-3 font-semibold hover:opacity-90 transition rounded-full m-[2px]"
             >
               Subscribe
             </button>
           </div>
         </div>
       </div>
-    </>
+    </section>
   );
+};
 
-}
-
-export default Input
+export default Input;

@@ -1,5 +1,4 @@
-import React from "react";
-import aero from "../../assets/Aero_2.png";
+import aero from "../../assets/Aero.png";
 
 const content = [
   {
@@ -26,7 +25,7 @@ const content = [
 
 const Schedule = () => {
   return (
-    <div className="container mt-10 md:mt-40">
+    <div className="container sm:py-32 py-16">
       <div className="space-y-4">
         <div className="flex text-center justify-center">
           <img
@@ -37,34 +36,35 @@ const Schedule = () => {
           />
           <h1
             data-aos="fade-up"
-            className="text-4xl xl:text-7xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#8C0AD9] to-[#1F7EFB] text-center"
+            className="text-6xl xl:text-7xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#8C0AD9] to-[#1F7EFB] text-center"
           >
             Schedule app
           </h1>
         </div>
         <p
           data-aos="fade-up"
-          className="text-xl  text-center font-normal text-[#FFFFFF99] mt-2 md:mt-6"
+          className="text-xl text-center font-normal text-[#FFFFFF99] mt-2 md:mt-6 w-8/12 mx-auto"
         >
-          Helps you effortlessly plan, organize, and
-          automate social media posts across multiple platforms, saving time
-          while ensuring consistent content delivery every day.
+          Helps you effortlessly plan, organize, and automate social media posts
+          across multiple platforms, saving time while ensuring consistent
+          content delivery every day.
         </p>
       </div>
       {/* Grids */}
       <div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 sm:gap-10 sm:gap-y-0.5 md:gap-14 mt-2 md:mt-5">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 sm:gap-8 gap-2  mt-5">
           {content.map((data) => {
             return (
               <div
+                key={data.id}
                 data-aos="fade-up"
                 data-aos-delay={data.aosDelay}
-                className="space-y-3 bg-[#232527] p-8 text-center rounded-[48px] border border-[#0063e6] shadow-all-sides mt-12"
+                className="space-y-2 bg-[#232527] 2xl:p-8 px-5 py-6 text-center rounded-[48px] border border-[#0063e6] shadow-all-sides mt-6"
               >
-                <h1 className="text-5xl font-medium text-[#E4F12E] text-center md:text-left">
+                <h1 className="2xl:text-5xl text-4xl font-medium text-[#E4F12E] text-center md:text-left">
                   {data.id}
                 </h1>
-                <div className="text-[#FFFFFF] text-2xl font-medium text-center md:text-left">
+                <div className="text-[#FFFFFF] md:text-2xl xl:text-3xl text-xl font-medium text-center md:text-left">
                   {data.para}
                 </div>
               </div>

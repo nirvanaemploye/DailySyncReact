@@ -1,15 +1,14 @@
-import React from "react";
-import image1 from "../../assets/Group427322135.png";
-import image2 from "../../assets/Group427322137.png";
-import image3 from "../../assets/Group427322136.png";
-import aero from "../../assets/Aero_2.png";
+import image1 from "../../assets/jon.png";
+import image2 from "../../assets/tom.png";
+import image3 from "../../assets/siya.png";
+import aero from "../../assets/Aero.png";
 
 const OurTeam = () => {
   return (
-    <div>
-      <div className="container mt-20 md:mt-44">
-        <div className="grid grid-cols-1 xl:grid-cols-2 justify-between gap-5">
-          <div className="space-y-4">
+    <div className="sm:py-32 py-16">
+      <div className="container">
+        <div className="grid grid-cols-1 xl:grid-cols-2 justify-between gap-3 space-y-10">
+          <div className="space-y-3 ">
             <div className="flex">
               <img
                 data-aos="fade-down"
@@ -19,7 +18,7 @@ const OurTeam = () => {
               />
               <h1
                 data-aos="fade-up"
-                className="text-5xl lg:text-7xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#8C0AD9] to-[#1F7EFB] text-center md:text-left"
+                className=" pb-5 text-6xl lg:text-7xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#8C0AD9] to-[#1F7EFB] text-center md:text-left"
               >
                 Our Team
               </h1>
@@ -40,8 +39,8 @@ const OurTeam = () => {
           </div>
           <div
             data-aos="zoom-in"
-            data-aos-duration="1500"
-            className="flex space-x-4 md:mx-6"
+            data-aos-duration="500"
+            className="flex space-x-4 md:mx-6 justify-center items-center "
           >
             <div className="space-y-3">
               <img src={image1} alt="" />
