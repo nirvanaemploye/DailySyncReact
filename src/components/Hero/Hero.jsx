@@ -10,9 +10,9 @@ const Hero = () => {
   return (
     <div className="container sm:pb-32 pt-16">
       <div className="bg-[#211F3C] border-2 border-[#A975FFCC]/80 rounded-[80px]">
-        <div className="flex flex-col-reverse md:flex-row sm:mx-16 mx-8 md:my-36 my-10 ">
+        <div className="flex flex-col-reverse md:flex-row mx-0 sm:mx-10 xl:mx-16 my-10 sm:my-20 xl:my-36 ">
           {/* Hero Content */}
-          <div className="md:w-8/12 md:space-y-10 my-auto">
+          <div className="md:w-8/12 sm:space-y-10 my-auto">
             <div className="space-y-4">
               <div
                 data-aos="fade-up"
@@ -35,7 +35,7 @@ const Hero = () => {
               data-aos-delay="400"
               className="flex flex-col md:flex-row gap-3 md:gap-6 items-center py-4 md:py-2"
             >
-              <a className="md:w-auto md:h-auto w-28 h-10">
+              <a className="xl:w-auto xl:h-auto w-32 h-14">
                 <img
                   src={AppStore}
                   alt=""
@@ -45,7 +45,7 @@ const Hero = () => {
               <a
                 href="https://play.google.com/store/apps/details?id=com.taskwave.dailysync&hl=en"
                 target="_blank"
-                className="md:w-auto md:h-auto w-28 h-10"
+                className="xl:w-auto xl:h-auto w-32 h-14"
               >
                 <img
                   src={Googleplay}
@@ -60,7 +60,7 @@ const Hero = () => {
           <motion.div
             initial={{ scale: 0.2, rotate: -8 }}
             animate={{ scale: 1, rotate: 0 }}
-            transition={{ type: "spring", stiffness:80, damping: 8 }}
+            transition={{ type: "spring", stiffness: 80, damping: 8 }}
             data-aos-delay="600"
             className="w-4/12 right-0 mx-auto py-4 md:py-0 relative "
           >
@@ -71,10 +71,10 @@ const Hero = () => {
               animate={{ scale: 1, rotate: 0 }}
               transition={{ type: "spring", stiffness: 100, damping: 10 }}
             />
-            <div className="animate-pulse animation-delay-300 absolute -right-6 -top-28 hidden lg:block">
+            <div className="animate-pulse animation-delay-300 absolute -right-5 -top-24 hidden xl:block">
               <img src={ticon} alt="" className="" />
             </div>
-            <div className="absolute -left-32 bottom-4 hidden xl:block">
+            <div className="absolute -left-32 bottom-4 hidden lg:block">
               <img src={two} alt="" />
             </div>
           </motion.div>
@@ -83,5 +83,6 @@ const Hero = () => {
     </div>
   );
 };
+
 
 export default Hero;
